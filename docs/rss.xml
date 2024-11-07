@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>bae152的博客</title><link>https://bae152.github.io</link><description>自己的学习笔记</description><copyright>bae152的博客</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://bae152.github.io</link></image><lastBuildDate>Thu, 07 Nov 2024 11:48:09 +0000</lastBuildDate><managingEditor>bae152的博客</managingEditor><ttl>60</ttl><webMaster>bae152的博客</webMaster><item><title>day 1</title><link>https://bae152.github.io/post/day%201.html</link><description>### 1.kickoff&#13;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>bae152的博客</title><link>https://bae152.github.io</link><description>自己的学习笔记</description><copyright>bae152的博客</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://bae152.github.io</link></image><lastBuildDate>Thu, 07 Nov 2024 12:07:57 +0000</lastBuildDate><managingEditor>bae152的博客</managingEditor><ttl>60</ttl><webMaster>bae152的博客</webMaster><item><title>day 1</title><link>https://bae152.github.io/post/day%201.html</link><description>### 1.kickoff&#13;
 课程介绍&#13;
 ### 2command &amp; git&#13;
 git详情查看&#13;
@@ -34,10 +34,17 @@ git status查看状态（目前分支，提交情况，工作区/暂存区追踪
 git add &lt;file&gt;&#13;
 ls 查看工作区&#13;
 ll/ls -l 详细查看&#13;
+rm 文件名 删除&#13;
+rmdir 文件夹 删除&#13;
+touch &lt;file&gt; 创建&#13;
+mkdir &lt;directory&gt; 创建&#13;
+mv &lt;source&gt; &lt;destinaton&gt; move&#13;
+cp &lt;...&gt; &lt;...&gt; copy&#13;
 git commit -m '日志信息' &lt;file&gt;&#13;
 git reflog 提交记录&#13;
 git log 详细，包括提交人&#13;
 git reset --soft/mixed/hard ...（版本号） 版本穿梭（改变指针位置即可）(更改保留/仅暂存区更改移除/移除)&#13;
+&#13;
 &#13;
 ### 分支（指针的引用）&#13;
 git branch 创建&#13;
