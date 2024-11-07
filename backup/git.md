@@ -20,12 +20,6 @@ git status查看状态（目前分支，提交情况，工作区/暂存区追踪
 git add <file>
 ls 查看工作区
 ll/ls -l 详细查看
-rm 文件名 删除
-rmdir 文件夹 删除
-touch <file> 创建
-mkdir <directory> 创建
-mv <source> <destinaton> move
-cp <...> <...> copy
 git commit -m "日志信息" <file>
 git reflog 提交记录
 git log 详细，包括提交人
@@ -57,3 +51,12 @@ git clone (拉取代码，初始化本地库，创建别名origin)
 
 ### gitlab
 使用git作为代码管理工具搭建的web服务
+
+补充
+rm 文件名 删除
+rmdir 文件夹 删除
+touch <file> 创建
+mkdir <directory> 创建
+mv <source> <destinaton> move
+cp <...> <...> copy
+. 所有文件，如git add . 跟踪当前文件夹的所有文件
