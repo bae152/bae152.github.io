@@ -10,3 +10,9 @@ svn 集中式（客户端连接，统一修改中央服务器代码）
 代码托管中心
 局域网 gitlab
 互联网 github/gitee
+
+### 开始写git
+设置用户签名，明白是谁提交了代码
+git config --global user.name .../user.email ...
+git init初始化
+git status查看状态
