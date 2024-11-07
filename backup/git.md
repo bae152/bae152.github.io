@@ -15,4 +15,29 @@ svn 集中式（客户端连接，统一修改中央服务器代码）
 设置用户签名，明白是谁提交了代码
 git config --global user.name .../user.email ...
 git init初始化
-git status查看状态
+git status查看状态（目前分支，提交情况，工作区/暂存区追踪文件）
+git add <file>
+ls 查看工作区
+ll/ls -l 详细查看
+git commit -m "日志信息" <file>
+git reflog 提交记录
+git log 详细，包括提交人
+git reset --soft/mixed/hard ...（版本号） 版本穿梭（改变指针位置即可）(更改保留/仅暂存区更改移除/移除)
+
+### 分支（指针的引用）
+git branch 创建
+git branch -v 查看
+git checkout 切换
+git merge （其他分支） 合并（在主分支上将其他分支合并）
+
+### 合并冲突
+提交不要带文件名，系统不知道是哪个文件
+
+git push 别名 分支
+git pull 别名 分支==git fetch+git merge
+git fork 创建远程库副本
+
+###远程库
+git remote -v 查看所有远程库别名
+git remote add 别名 远程库
+git clone (拉取代码，初始化本地库，创建别名origin)
