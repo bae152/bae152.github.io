@@ -1,5 +1,5 @@
 ### 课程链接[https://www.bilibili.com/video/BV1vy4y1s7k6](url)
-### IDEA集成github未学习
+### IDEA集成github与gitlab未学习
 
 git 分布式版本控制工具 （从远程库clone，在自己电脑上做版本控制）
 svn 集中式（客户端连接，统一修改中央服务器代码） 
@@ -47,3 +47,6 @@ git clone (拉取代码，初始化本地库，创建别名origin)
 公私钥通常保存在~/.ssh/中
 公钥 id_rsa.pub
 私钥 id_rsa
+
+### gitlab
+使用git作为代码管理工具搭建的web服务
