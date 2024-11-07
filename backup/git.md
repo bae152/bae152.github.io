@@ -36,8 +36,13 @@ git merge （其他分支） 合并（在主分支上将其他分支合并）
 git push 别名 分支
 git pull 别名 分支==git fetch+git merge
 git fork 创建远程库副本
-
+s
 ###远程库
 git remote -v 查看所有远程库别名
 git remote add 别名 远程库
 git clone (拉取代码，初始化本地库，创建别名origin)
+
+###ssh免密登陆
+公私钥通常保存在~/.ssh/中
+公钥 id_rsa.pub
+私钥 id_rsa
