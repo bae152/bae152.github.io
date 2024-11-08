@@ -60,3 +60,4 @@ mkdir <directory> 创建
 mv <source> <destinaton> move
 cp <...> <...> copy
 . 所有文件，如git add . 跟踪当前文件夹的所有文件
+code .把所有文件用code软件打开
