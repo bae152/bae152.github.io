@@ -56,4 +56,4 @@ h1相比与span和div有许多默认样式
 
 ### 连接html和css
 在head中添加<link rel href/ > 关系与链接
-styleheet样式表
+stylesheet样式表
